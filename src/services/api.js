@@ -1,6 +1,8 @@
 import { api } from '../utils/index';
 import axios from 'axios';
 
-export function login(values) {
-  return axios.post(`${api}/login`, values);
+const ApiServices = {
+  getCoinList: () => axios.get(`${api}/ticker/24hr`)
 }
+
+export default ApiServices;

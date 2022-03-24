@@ -1,5 +1,4 @@
-export const IncreaseCounter = '@APP: INCREASE-COUNTER';
-export const Login = '@APP: LOGIN';
-export const SaveLoginData = '@APP: SAVE-LOGIN-DATA';
+export const GetCoinList                                                        = '@APP: GET-COIN-LIST';
+export const SaveCoinListData                                                   = '@APP: SAVE-COIN-LIST-DATA';
 
-export const ResetAppStore = '@APP: RESET-APP-STORE';
+export const ResetAppStore                                                      = '@APP: RESET-APP-STORE';

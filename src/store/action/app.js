@@ -1,15 +1,11 @@
 import * as Actions from '../actions';
 
-export function increaseCounter(volume = 1) {
-  return { type: Actions.IncreaseCounter, volume };
+export function getCoinList(values) {
+  return { type: Actions.GetCoinList, values };
 }
 
-export function login(values, navigation) {
-  return { type: Actions.Login, payload: { values, navigation } };
-}
-
-export function saveLoginData(values) {
-  return { type: Actions.SaveLoginData, values };
+export function saveCoinListData(values) {
+  return { type: Actions.SaveCoinListData, values };
 }
 
 export function resetAppStore() {
