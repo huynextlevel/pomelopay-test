@@ -6,6 +6,14 @@ const globalStyles = {
     alignItems: 'center',
     justifyContent: 'center',
   },
+  rowContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  columnContainer: {
+    flexDirection: 'column',
+    alignItems: 'flex-start',
+  },
   buttonContainer: {
     width: 'auto',
     height: 30,
