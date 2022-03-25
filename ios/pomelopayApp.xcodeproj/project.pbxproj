@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* rnBoilerplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* rnBoilerplateTests.m */; };
+		00E356F31AD99517003FC87E /* pomelopayAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* pomelopayAppTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		59AF1D63931D49A8175E71FD /* libPods-rnBoilerplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F54EF6EE34E5629318987F3F /* libPods-rnBoilerplate.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		C031EF77D1E97335363615E5 /* libPods-rnBoilerplate-rnBoilerplateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D427FCD30AE8D8177E777B6F /* libPods-rnBoilerplate-rnBoilerplateTests.a */; };
+		9ED94448D2F569232C128D94 /* libPods-pomelopayApp-pomelopayAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12DE9A7F06F9D9FC017A0F7A /* libPods-pomelopayApp-pomelopayAppTests.a */; };
+		CF368EEC9E196310E3E68AFC /* libPods-pomelopayApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A2F2C623B4A2871BDBA2D57 /* libPods-pomelopayApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,44 +22,44 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = rnBoilerplate;
+			remoteInfo = pomelopayApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00DFAEAA8E0811B2EA9204C4 /* Pods-rnBoilerplate-rnBoilerplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnBoilerplate-rnBoilerplateTests.release.xcconfig"; path = "Target Support Files/Pods-rnBoilerplate-rnBoilerplateTests/Pods-rnBoilerplate-rnBoilerplateTests.release.xcconfig"; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* rnBoilerplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rnBoilerplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* pomelopayAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pomelopayAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* rnBoilerplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rnBoilerplateTests.m; sourceTree = "<group>"; };
-		0C4A65EC1471700FD6390F32 /* Pods-rnBoilerplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnBoilerplate.debug.xcconfig"; path = "Target Support Files/Pods-rnBoilerplate/Pods-rnBoilerplate.debug.xcconfig"; sourceTree = "<group>"; };
-		0FFA12E7466F0E9F95CB364A /* Pods-rnBoilerplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnBoilerplate.release.xcconfig"; path = "Target Support Files/Pods-rnBoilerplate/Pods-rnBoilerplate.release.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* rnBoilerplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rnBoilerplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = rnBoilerplate/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = rnBoilerplate/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = rnBoilerplate/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = rnBoilerplate/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = rnBoilerplate/main.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* pomelopayAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pomelopayAppTests.m; sourceTree = "<group>"; };
+		12DE9A7F06F9D9FC017A0F7A /* libPods-pomelopayApp-pomelopayAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pomelopayApp-pomelopayAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* pomelopayApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pomelopayApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = pomelopayApp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = pomelopayApp/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = pomelopayApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = pomelopayApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = pomelopayApp/main.m; sourceTree = "<group>"; };
 		19D364E620D9406984640690 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		1F22420C0AB546F7B0BB621E /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		21D23B6EDC8E04274453B712 /* Pods-pomelopayApp-pomelopayAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pomelopayApp-pomelopayAppTests.debug.xcconfig"; path = "Target Support Files/Pods-pomelopayApp-pomelopayAppTests/Pods-pomelopayApp-pomelopayAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		27186B63F7A2440186C1DAE0 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		2FB010C466B3425FA1CDABC8 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		2FE7D56BB48B4A059998D38F /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
 		37C67EB76DCA4E74A9964507 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		4C620662170B4206896916BD /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		63DA4216D33D1C6351C6F03A /* Pods-pomelopayApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pomelopayApp.release.xcconfig"; path = "Target Support Files/Pods-pomelopayApp/Pods-pomelopayApp.release.xcconfig"; sourceTree = "<group>"; };
 		69DDE2C64E4247B9BDB7A60C /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		771D72AAE0D942CE832EF5DF /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = rnBoilerplate/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = pomelopayApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A2F2C623B4A2871BDBA2D57 /* libPods-pomelopayApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pomelopayApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95D22F7CD2444B0F94EE547F /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		A09DF80345514867A3655268 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		ABFD3945B8924938958BEEFB /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
-		C52FFE7026C9F84D74083583 /* Pods-rnBoilerplate-rnBoilerplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnBoilerplate-rnBoilerplateTests.debug.xcconfig"; path = "Target Support Files/Pods-rnBoilerplate-rnBoilerplateTests/Pods-rnBoilerplate-rnBoilerplateTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CCA256516DBC47E6B512E44F /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
-		D427FCD30AE8D8177E777B6F /* libPods-rnBoilerplate-rnBoilerplateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnBoilerplate-rnBoilerplateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7A4758043984FD58C136AC6 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		E09B785D3E9232BD8D1CCCEC /* Pods-pomelopayApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pomelopayApp.debug.xcconfig"; path = "Target Support Files/Pods-pomelopayApp/Pods-pomelopayApp.debug.xcconfig"; sourceTree = "<group>"; };
 		E90A5852C187466F8B004CA3 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		E9E891CDB3496123CEECDF59 /* Pods-pomelopayApp-pomelopayAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pomelopayApp-pomelopayAppTests.release.xcconfig"; path = "Target Support Files/Pods-pomelopayApp-pomelopayAppTests/Pods-pomelopayApp-pomelopayAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F243CEFD616645B49A471B7C /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
-		F54EF6EE34E5629318987F3F /* libPods-rnBoilerplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnBoilerplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C031EF77D1E97335363615E5 /* libPods-rnBoilerplate-rnBoilerplateTests.a in Frameworks */,
+				9ED94448D2F569232C128D94 /* libPods-pomelopayApp-pomelopayAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,20 +75,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59AF1D63931D49A8175E71FD /* libPods-rnBoilerplate.a in Frameworks */,
+				CF368EEC9E196310E3E68AFC /* libPods-pomelopayApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* rnBoilerplateTests */ = {
+		00E356EF1AD99517003FC87E /* pomelopayAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* rnBoilerplateTests.m */,
+				00E356F21AD99517003FC87E /* pomelopayAppTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = rnBoilerplateTests;
+			path = pomelopayAppTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -99,7 +99,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* rnBoilerplate */ = {
+		13B07FAE1A68108700A75B9A /* pomelopayApp */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -109,7 +109,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = rnBoilerplate;
+			name = pomelopayApp;
 			sourceTree = "<group>";
 		};
 		2C02A03BB180424083227729 /* Resources */ = {
@@ -139,8 +139,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				F54EF6EE34E5629318987F3F /* libPods-rnBoilerplate.a */,
-				D427FCD30AE8D8177E777B6F /* libPods-rnBoilerplate-rnBoilerplateTests.a */,
+				8A2F2C623B4A2871BDBA2D57 /* libPods-pomelopayApp.a */,
+				12DE9A7F06F9D9FC017A0F7A /* libPods-pomelopayApp-pomelopayAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -155,9 +155,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* rnBoilerplate */,
+				13B07FAE1A68108700A75B9A /* pomelopayApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* rnBoilerplateTests */,
+				00E356EF1AD99517003FC87E /* pomelopayAppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				92B1760BFCC15D17687B7E3A /* Pods */,
@@ -171,8 +171,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* rnBoilerplate.app */,
-				00E356EE1AD99517003FC87E /* rnBoilerplateTests.xctest */,
+				13B07F961A680F5B00A75B9A /* pomelopayApp.app */,
+				00E356EE1AD99517003FC87E /* pomelopayAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -180,10 +180,10 @@
 		92B1760BFCC15D17687B7E3A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0C4A65EC1471700FD6390F32 /* Pods-rnBoilerplate.debug.xcconfig */,
-				0FFA12E7466F0E9F95CB364A /* Pods-rnBoilerplate.release.xcconfig */,
-				C52FFE7026C9F84D74083583 /* Pods-rnBoilerplate-rnBoilerplateTests.debug.xcconfig */,
-				00DFAEAA8E0811B2EA9204C4 /* Pods-rnBoilerplate-rnBoilerplateTests.release.xcconfig */,
+				E09B785D3E9232BD8D1CCCEC /* Pods-pomelopayApp.debug.xcconfig */,
+				63DA4216D33D1C6351C6F03A /* Pods-pomelopayApp.release.xcconfig */,
+				21D23B6EDC8E04274453B712 /* Pods-pomelopayApp-pomelopayAppTests.debug.xcconfig */,
+				E9E891CDB3496123CEECDF59 /* Pods-pomelopayApp-pomelopayAppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -191,47 +191,47 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* rnBoilerplateTests */ = {
+		00E356ED1AD99517003FC87E /* pomelopayAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "rnBoilerplateTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "pomelopayAppTests" */;
 			buildPhases = (
-				3A54747C961299B653A107ED /* [CP] Check Pods Manifest.lock */,
+				E3042B30C58C1AD93273B6B9 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				81FF12CB54135DBF18694D82 /* [CP] Embed Pods Frameworks */,
-				43C9933A0559C5A6733CBF77 /* [CP] Copy Pods Resources */,
+				C4FF352CB7FCF670698C0478 /* [CP] Embed Pods Frameworks */,
+				F21F5B3AA9E0EC9A833A7AC1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = rnBoilerplateTests;
-			productName = rnBoilerplateTests;
-			productReference = 00E356EE1AD99517003FC87E /* rnBoilerplateTests.xctest */;
+			name = pomelopayAppTests;
+			productName = pomelopayAppTests;
+			productReference = 00E356EE1AD99517003FC87E /* pomelopayAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* rnBoilerplate */ = {
+		13B07F861A680F5B00A75B9A /* pomelopayApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "rnBoilerplate" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "pomelopayApp" */;
 			buildPhases = (
-				19FA9C38B57D8804352E71B6 /* [CP] Check Pods Manifest.lock */,
+				754A18EE257104AF2CCA6925 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				BC5CF5232B60952E6AC00BDF /* [CP] Embed Pods Frameworks */,
-				AB6943AC409D662599890513 /* [CP] Copy Pods Resources */,
+				7EE93DAEF9B866391D7D3B07 /* [CP] Embed Pods Frameworks */,
+				1605A85C3AA384F945D32BB6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = rnBoilerplate;
-			productName = rnBoilerplate;
-			productReference = 13B07F961A680F5B00A75B9A /* rnBoilerplate.app */;
+			name = pomelopayApp;
+			productName = pomelopayApp;
+			productReference = 13B07F961A680F5B00A75B9A /* pomelopayApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -251,7 +251,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "rnBoilerplate" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "pomelopayApp" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -264,8 +264,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* rnBoilerplate */,
-				00E356ED1AD99517003FC87E /* rnBoilerplateTests */,
+				13B07F861A680F5B00A75B9A /* pomelopayApp */,
+				00E356ED1AD99517003FC87E /* pomelopayAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -304,7 +304,24 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		19FA9C38B57D8804352E71B6 /* [CP] Check Pods Manifest.lock */ = {
+		1605A85C3AA384F945D32BB6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pomelopayApp/Pods-pomelopayApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pomelopayApp/Pods-pomelopayApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pomelopayApp/Pods-pomelopayApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		754A18EE257104AF2CCA6925 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -319,14 +336,48 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-rnBoilerplate-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-pomelopayApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3A54747C961299B653A107ED /* [CP] Check Pods Manifest.lock */ = {
+		7EE93DAEF9B866391D7D3B07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pomelopayApp/Pods-pomelopayApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pomelopayApp/Pods-pomelopayApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pomelopayApp/Pods-pomelopayApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4FF352CB7FCF670698C0478 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pomelopayApp-pomelopayAppTests/Pods-pomelopayApp-pomelopayAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pomelopayApp-pomelopayAppTests/Pods-pomelopayApp-pomelopayAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pomelopayApp-pomelopayAppTests/Pods-pomelopayApp-pomelopayAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3042B30C58C1AD93273B6B9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -341,79 +392,28 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-rnBoilerplate-rnBoilerplateTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-pomelopayApp-pomelopayAppTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		43C9933A0559C5A6733CBF77 /* [CP] Copy Pods Resources */ = {
+		F21F5B3AA9E0EC9A833A7AC1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rnBoilerplate-rnBoilerplateTests/Pods-rnBoilerplate-rnBoilerplateTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-pomelopayApp-pomelopayAppTests/Pods-pomelopayApp-pomelopayAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rnBoilerplate-rnBoilerplateTests/Pods-rnBoilerplate-rnBoilerplateTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-pomelopayApp-pomelopayAppTests/Pods-pomelopayApp-pomelopayAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rnBoilerplate-rnBoilerplateTests/Pods-rnBoilerplate-rnBoilerplateTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		81FF12CB54135DBF18694D82 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rnBoilerplate-rnBoilerplateTests/Pods-rnBoilerplate-rnBoilerplateTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rnBoilerplate-rnBoilerplateTests/Pods-rnBoilerplate-rnBoilerplateTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rnBoilerplate-rnBoilerplateTests/Pods-rnBoilerplate-rnBoilerplateTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AB6943AC409D662599890513 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rnBoilerplate/Pods-rnBoilerplate-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rnBoilerplate/Pods-rnBoilerplate-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rnBoilerplate/Pods-rnBoilerplate-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BC5CF5232B60952E6AC00BDF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rnBoilerplate/Pods-rnBoilerplate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rnBoilerplate/Pods-rnBoilerplate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rnBoilerplate/Pods-rnBoilerplate-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pomelopayApp-pomelopayAppTests/Pods-pomelopayApp-pomelopayAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -442,7 +442,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* rnBoilerplateTests.m in Sources */,
+				00E356F31AD99517003FC87E /* pomelopayAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,7 +460,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* rnBoilerplate */;
+			target = 13B07F861A680F5B00A75B9A /* pomelopayApp */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -468,14 +468,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C52FFE7026C9F84D74083583 /* Pods-rnBoilerplate-rnBoilerplateTests.debug.xcconfig */;
+			baseConfigurationReference = 21D23B6EDC8E04274453B712 /* Pods-pomelopayApp-pomelopayAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = rnBoilerplateTests/Info.plist;
+				INFOPLIST_FILE = pomelopayAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -489,17 +489,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rnBoilerplate.app/rnBoilerplate";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pomelopayApp.app/pomelopayApp";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00DFAEAA8E0811B2EA9204C4 /* Pods-rnBoilerplate-rnBoilerplateTests.release.xcconfig */;
+			baseConfigurationReference = E9E891CDB3496123CEECDF59 /* Pods-pomelopayApp-pomelopayAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = rnBoilerplateTests/Info.plist;
+				INFOPLIST_FILE = pomelopayAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -513,19 +513,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rnBoilerplate.app/rnBoilerplate";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pomelopayApp.app/pomelopayApp";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C4A65EC1471700FD6390F32 /* Pods-rnBoilerplate.debug.xcconfig */;
+			baseConfigurationReference = E09B785D3E9232BD8D1CCCEC /* Pods-pomelopayApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = rnBoilerplate/Info.plist;
+				INFOPLIST_FILE = pomelopayApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -536,7 +536,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = rnBoilerplate;
+				PRODUCT_NAME = pomelopayApp;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -545,12 +545,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FFA12E7466F0E9F95CB364A /* Pods-rnBoilerplate.release.xcconfig */;
+			baseConfigurationReference = 63DA4216D33D1C6351C6F03A /* Pods-pomelopayApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = rnBoilerplate/Info.plist;
+				INFOPLIST_FILE = pomelopayApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -561,7 +561,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = rnBoilerplate;
+				PRODUCT_NAME = pomelopayApp;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -695,7 +695,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "rnBoilerplateTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "pomelopayAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -704,7 +704,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "rnBoilerplate" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "pomelopayApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -713,7 +713,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "rnBoilerplate" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "pomelopayApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

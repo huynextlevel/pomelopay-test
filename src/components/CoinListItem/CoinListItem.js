@@ -9,7 +9,6 @@ import {
   customSymbol,
   checkIncrease,
   round2Decimals,
-  numberWithCommas,
   removeTraillingZero,
 } from 'src/utils';
 
@@ -21,13 +20,13 @@ export const CoinListItem = React.memo(({ item, filterValue }) => {
           {customSymbol(item.symbol, filterValue).symbol} <Text style={{ fontSize: 14 }}>{customSymbol(item.symbol, filterValue).filter}</Text>
         </Text>
         <Text style={styles.coinSubText}>
-          Vol {intToString(item.volume)}
+          Vol {intToString(round2Decimals(item.volume))}
         </Text>
       </View>
       <View style={globalStyles.rowContainer}>
         <View style={[globalStyles.columnContainer, styles.lastPriceContainer]}>
-          <Text style={[styles.coinSymbolText, { color: checkIncrease(item.priceChangePercent) ? colors.green : colors.red }]}>
-            {removeTraillingZero(item.lastPrice)}
+          <Text style={[styles.coinPriceText, { color: checkIncrease(item.priceChangePercent) ? colors.green : colors.red }]}>
+            {removeTraillingZero(intToString(item.lastPrice))}
           </Text>
         </View>
         <View style={[styles.priceChangeContainer, { backgroundColor: checkIncrease(item.priceChangePercent) ? colors.green : colors.red }]}>

@@ -8,7 +8,11 @@ export default StyleSheet.create({
     justifyContent: 'space-between',
   },
   coinSymbolText: {
-    fontSize: 19,
+    fontSize: 18,
+    fontWeight: '600',
+  },
+  coinPriceText: {
+    fontSize: 17,
     fontWeight: '600',
   },
   coinSubText: {

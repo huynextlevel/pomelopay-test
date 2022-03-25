@@ -1,19 +1,19 @@
 import React, { useEffect } from 'react';
-import PropTypes from 'prop-types';
 import { StyleSheet, View, Text, ActivityIndicator } from 'react-native';
+import { useDispatch } from 'react-redux';
+
+import * as appActions from '../store/action/app';
 
 const SplashScreen = ({ navigation }) => {
-  useEffect(
-    () =>
-      navigation.addListener('focus', () => {
-        setTimeout(() => navigation.navigate('Login'), 3000);
-      }),
-    [navigation],
-  );
+  const dispatch = useDispatch();
+
+  useEffect(() => navigation.addListener('focus', () => {
+    dispatch(appActions.getCoinList(navigation));
+  }), [navigation]);
 
   return (
     <View style={styles.container}>
-      <Text style={{ marginBottom: 10 }}>SplashScreen</Text>
+      <Text style={{ marginBottom: 20 }}>Pomelo Pay</Text>
       <ActivityIndicator color="#000" />
     </View>
   );
@@ -26,7 +26,5 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
-
-SplashScreen.propTypes = {};
 
 export default SplashScreen;
