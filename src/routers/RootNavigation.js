@@ -2,7 +2,7 @@ import 'react-native-gesture-handler';
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 
-import SplashScreen from '../screens/SplashScreen';
+import SplashScreen from 'src/screens/SplashScreen';
 import DrawerNavigator from './DrawerNavigator';
 
 const Stack = createStackNavigator();

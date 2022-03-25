@@ -2,7 +2,7 @@ import * as React from 'react';
 import { StyleSheet } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
 
-import HomeScreen from '../screens/Home/HomeScreen';
+import HomeScreen from 'src/screens/Home/HomeScreen';
 
 const HomeStack = createStackNavigator();
 
@@ -14,9 +14,9 @@ export default function HomeStackScreen() {
         component={HomeScreen}
         options={navigation => ({
           headerLeft: false,
-          headerShown: false,
+          headerShown: true,
           gestureEnabled: true,
-          headerTitle: false,
+          headerTitle: 'Binance Coin List',
         })}
       />
     </HomeStack.Navigator>
