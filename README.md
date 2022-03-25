@@ -10,5 +10,5 @@
 - On Android:
   - Run `react-native run-android` or Use Android Studio (Recommended)
 - On iOS:
-  - Open `pomelopayApp.xcworkspace` in Xcode
+  - Open `ios/pomelopayApp.xcworkspace` in Xcode
   - Hit `Run` after selecting the desired device
